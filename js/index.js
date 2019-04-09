@@ -1,10 +1,11 @@
+
 var initialCoordinates = [-22.91, -43.20];
 var initialZoomLevel = 15;
 var muxiCoordinates = [40.6560292,-7.9148723,1110];
 var muxiMarkerMessage = "Centro";
 
 // create a map in the "map" div, set the view to a given place and zoom
-var map = L.map('map').setView(initialCoordinates, initialZoomLevel);
+var map = L.map('map').setView(muxiCoordinates, initialZoomLevel);
 
 // add an OpenStreetMap tile layer
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
