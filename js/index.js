@@ -1,7 +1,7 @@
 
 var initialCoordinates = [-22.91, -43.20];
 var initialZoomLevel = 15;
-var muxiCoordinates = [40.6574095,-7.9163086,17];
+var muxiCoordinates = [40.6574095,-7.9163086];
 var muxiMarkerMessage = "Centro";
 var muxiIconProperties = {
     iconUrl: "contrib/leaflet-0.7.7/leaflet.css/images/marker-icon.png"
